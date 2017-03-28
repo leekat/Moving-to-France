@@ -1,12 +1,53 @@
 /*main.css*/
 
-  .img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  }
+.jumbotron{
+  background-color:black;
+  color:white;
+}
 
-  .jumbotron {
-    background-color:black;
-    color:white;
-  }
+#page-header {
+  font-family: 'Oleo Script', serif;
+  font-size: 48px;
+}
+
+#header {
+  font-family: 'Oleo Script', serif;
+  font-size: 32px;
+}
+
+.ui-block-a {
+  position: relative;
+  max-width:1200px; /*you need to set a max-width/width */
+}
+
+.ui-bar {
+  padding: 5px
+}
+
+#p1 {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  bottom: 5px;
+  background: rgba(244, 246, 207, .2);
+  max-width:1000px;
+  text-align:center
+
+}
+img {
+  height: auto;
+  max-width: 100%
+}
+
+body {
+  background-image:radial-gradient(ellipse, #F2FC35 0%, rgba(0, 0, 255, 0) 50%, #0000FF 95%);
+}
+
+.hover {
+  color: yellow;
+  text-shadow: 3px 3px 6px black;
+}
